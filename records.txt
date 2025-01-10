@@ -1,0 +1,4 @@
+John:1990-01-01:New York:100
+John:1990-01-01:New York:40
+John:1990-01-01:New York:10020
+John:1990-01-01:New York:10
