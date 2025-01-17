@@ -13,6 +13,14 @@ public class Customer {
         this.city = city;
         this.salesNumber = salesNumber;
     }
+    public Customer(String cSText) {
+        cSText = cSText.trim();
+        String[] lines = cSText.split(DELIMITER.toString());
+        name = lines[0];
+        dateOfBirth = LocalDate.parse(lines[1]);
+        city = lines[2];
+        salesNumber = Integer.parseInt(lines[3]);
+    }
 
     public String getName() {
         return name;
